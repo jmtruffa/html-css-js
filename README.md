@@ -1,0 +1,1 @@
+This is a repository to store files a resources for html-css-javascript courses.
