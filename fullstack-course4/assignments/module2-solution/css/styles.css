@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
@@ -9,47 +9,48 @@ body {
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 44px;
   text-align: center;
 }
 
 .box {
   width: 100%;
-  overflow: none;
 }
 
 .contenido-primero{
-  overflow: none;
   text-align: center;
-  border-radius: 5px solid black;
-  width: 150px;
-  height: 40px;
-  padding: 5px;
+  border: 1px solid black;
+  width: 200px;
+  height: 25px;
+  padding: 17px;
+  /*padding-right: 10px*/
   float: right;
-  margin-right: 36px;
+  margin-right: 10px;
   margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: bold;
   position: relative;
+  font-size: 30px;
 }
 
 .contenido{
-  border: 5px solid black;
-  width: 90%;
+  border: 1px solid black;
+  /*width: 90%;*/
   height: auto;
-  margin: 2.5%;
+  margin: 10px;
   color: black;
   font-size: 25px;
   padding: 2%;
-  padding-top: 55px;
+  padding-top: 80px;
   background-color: rgba(0,0,0,0.3);
 }
 
 .chicken {
-  background-color: #FFB6C1
+  background-color: #FFB6C1;
 }
 
 .beef {
-  color: white;
   background-color: #FF0000;
 }
 
@@ -73,27 +74,22 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    /* border: 1px solid black; */
   }
 
   .col-md-6 {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .col-md-12 {
+  ..col-md-12 {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
+
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    /* border: 1px solid black; */
   }
 
   .col-sm-12 {
