@@ -24,7 +24,6 @@ h1 {
   width: 200px;
   height: 25px;
   padding: 17px;
-  /*padding-right: 10px*/
   float: right;
   margin-right: 10px;
   margin-top: 0px;
@@ -36,14 +35,13 @@ h1 {
 
 .contenido{
   border: 1px solid black;
-  /*width: 90%;*/
   height: auto;
   margin: 10px;
   color: black;
   font-size: 25px;
   padding: 2%;
   padding-top: 80px;
-  background-color: rgba(0,0,0,0.3);
+  background-color:   #B0B0B0;
 }
 
 .chicken {
@@ -80,7 +78,7 @@ h1 {
     width: 50%;
   }
 
-  ..col-md-12 {
+  .col-md-12 {
     width: 100%;
   }
 
@@ -93,6 +91,6 @@ h1 {
   }
 
   .col-sm-12 {
-    width: 100%;
+    width: 100%;  
   }
 }
